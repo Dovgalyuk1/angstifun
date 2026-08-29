@@ -68,8 +68,8 @@ function initCopy() {
 
 /* ---------------- buttons (buy / chart / x / tg) ---------------- */
 function initButtons() {
-  wireLink(["buyBtn", "buyHeaderBtn"], CONFIG.BUY_URL, "The flight hasn't left yet — no token minted");
-  wireLink(["chartBtn", "footerChartBtn"], CONFIG.CHART_URL, "No chart yet — Neverdump Land is still quiet");
+  wireLink(["buyBtn", "buyHeaderBtn"], CONFIG.BUY_URL, "The delivery hasn't shipped yet — no token minted");
+  wireLink(["chartBtn", "footerChartBtn"], CONFIG.CHART_URL, "No chart yet — dispatch is still quiet");
   wireLink(["xBtn", "footerXBtn"], CONFIG.X_URL, "X account coming soon");
   wireLink(["footerTgBtn"], CONFIG.TELEGRAM_URL, "Telegram coming soon");
 }

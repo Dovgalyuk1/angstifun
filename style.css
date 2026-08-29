@@ -1,6 +1,6 @@
 /* ==========================================================================
-   PumpPan ($PUMPAN) — Neverdump Land
-   Dreamy pastel palette sampled from the sent photo: soft blue spirit,
+   AngstiFun ($ANGSTIFUN) — Pump Pharmaceuticals™ Night Shift
+   Dreamy pastel palette sampled from the sent photo: soft blue courier,
    dusty rose + warm cream bokeh. Soft shadows, rounded shapes, sparkles —
    deliberately gentler than AngstiPump's clinical flat-icon look.
    ========================================================================== */
@@ -367,19 +367,19 @@ a { color: inherit; text-decoration: none; }
 .story-card strong { color: var(--ink); }
 
 /* ---------- meet pan ---------- */
-.pan-grid {
+.about-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
-.pan-fact {
+.about-fact {
   background: var(--card);
   border-radius: var(--radius-sm);
   padding: 20px;
   box-shadow: var(--shadow-sm);
   text-align: center;
 }
-.pan-fact span {
+.about-fact span {
   display: block;
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.7rem;
@@ -388,7 +388,7 @@ a { color: inherit; text-decoration: none; }
   color: var(--blue-deep);
   margin-bottom: 8px;
 }
-.pan-fact strong { font-family: 'Baloo 2', sans-serif; font-size: 1.02rem; color: var(--ink); }
+.about-fact strong { font-family: 'Baloo 2', sans-serif; font-size: 1.02rem; color: var(--ink); }
 
 /* ---------- delivery ---------- */
 .delivery-banner {
@@ -689,7 +689,7 @@ a { color: inherit; text-decoration: none; }
   .buy-steps { grid-template-columns: repeat(2, 1fr); }
   .stat-grid { grid-template-columns: repeat(2, 1fr); }
   .tales-grid { grid-template-columns: 1fr; }
-  .pan-grid { grid-template-columns: repeat(2, 1fr); }
+  .about-grid { grid-template-columns: repeat(2, 1fr); }
   .story-card { padding: 34px 28px; }
 }
 
@@ -715,6 +715,6 @@ a { color: inherit; text-decoration: none; }
   .delivery-steps { grid-template-columns: 1fr; }
   .buy-steps { grid-template-columns: 1fr; }
   .stat-grid { grid-template-columns: 1fr 1fr; }
-  .pan-grid { grid-template-columns: 1fr 1fr; }
+  .about-grid { grid-template-columns: 1fr 1fr; }
   .capsule-flight { display: none; }
 }
