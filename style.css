@@ -391,6 +391,35 @@ a { color: inherit; text-decoration: none; }
 .pan-fact strong { font-family: 'Baloo 2', sans-serif; font-size: 1.02rem; color: var(--ink); }
 
 /* ---------- delivery ---------- */
+.delivery-banner {
+  margin: 0 auto 50px;
+  max-width: 100%;
+}
+.delivery-banner-img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: block;
+}
+.delivery-banner-caption {
+  text-align: center;
+  max-width: 640px;
+  margin: 16px auto 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.delivery-banner-caption a {
+  color: var(--blue-deep);
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 3px;
+}
+.delivery-banner-caption a:hover { color: var(--gold); }
+
 .delivery-steps {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
